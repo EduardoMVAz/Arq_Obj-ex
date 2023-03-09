@@ -6,6 +6,8 @@ public class FileMessage extends Message {
 
     public FileMessage(Usuario user, String content, Integer size) {
         super(user);
+        this.content = content;
+        this.size = size;
     }
     public String getContent() {
         return content;
